@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rgukt Home page</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        header {
+            min-height: 100px;
+            position:fixed;
+            top: 0px;
+        }
+        body{
+            background-color: black;
+            height: 1050px;
+        }
+        .content{
+            position:relative;
+        }
+        marquee{
+            position: absolute;
+            top: 20px;
+            color: white;
+        }
+        .slideshow{
+            position: absolute;
+            top: 60px;
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            overflow: hidden;
+            margin-top: 100px;
+        }
+        .announcements .p{
+            padding-top: 20px;
+        }
+        .announcements .p:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .announcements1 .p{
+            padding-top: 20px;
+        }
+        .announcements1 .p:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .board{
+            position: absolute;
+            top: 550px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer{
+            position: absolute;
+            top: 1000px;
+            width: 100%;
+            left: 0px;
+        }
+        a{
+            text-decoration:none;
+        }
+        video{
+            position: relative;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="bg-dark">
+    <header class="container-fluid bg-primary border border-danger navbar navbar-dark navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="C:/Users/chand/Desktop/logo.png" alt="chandu" width="65" height="70" class="d-inline-block align-text-center">
+                <span class="f-5">RGUKT Nuzvid</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Accrediation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Academics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Curriculum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Placements</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Account
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Login</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                            <li><a class="dropdown-item" href="#">Register</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid content border border-primary">
+        <marquee><span style="color: red;">*New:</span> E2 Sem-2 results are out!!!</marquee>
+        <div class="slideshow container-fluid">
+            <img class="img-container border border-danger" name="n">
+        </div>
+        <div class="board container ">
+                <div class="announcements border border-danger">
+                    <div class="h2" style="background-color:white; color: black;">Announcements:</div>
+                    <div class="p">
+                        <span style="color: red;">24/01:</span> Circular to students regarding foodcourt
+                    </div>
+                    <div class="p">
+                        <span style="color: red;">26/01:</span> circular for payment of jagananna vidya deevena for the 3rd installement of this year.
+                    </div>
+                    <div class="p">
+                        <span style="color: red;">24/01:</span> Circular to students for the above povery line for the payment of college tution fee!
+                    </div>
+                    <div class="p">
+                        <span style="color: red;">24/01:</span> Circular to students regarding foodcourt
+                    </div>
+                    <div class="p">
+                        <span style="color: red;">24/01:</span> Circular to students regarding foodcourt
+                    </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="announcements border border-danger">
+                <div class="h2" style="background-color:white; color: black;">News and Events:</div>
+                <div class="p">
+                    <span style="color: red;">24/01:</span> Circular to students regarding foodcourt
+                </div>
+                <div class="p">
+                    <span style="color: red;">26/01:</span> circular for payment of jagananna vidya deevena for the 3rd installement of this year.
+                </div>
+                <div class="p">
+                    <span style="color: red;">24/01:</span> Circular to students for the above povery line for the payment of college tution fee!
+                </div>
+                <div class="p">
+                    <span style="color: red;">24/01:</span> Circular to students regarding foodcourt
+                </div>
+                <div class="p">
+                    <span style="color: red;">24/01:</span> Circular to students regarding foodcourt
+                </div>
+        </div>
+            
+        </div>
+        <video autoplay muted loop >
+            <source src="vecteezy_small-particles-and-stars-moving-on-galaxy_2017224.mov" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="footer">
+        <div class="container-fluid bg-primary text-white ">
+            <div class="container">
+          <div class="row text-center gap-3">
+            <div class="col-md-4 text-start">
+              <div class="h4">RGUKT Nuzvid:</div>
+              <div class="p">
+                
+                Nuzvid Campus
+                Catering to the Educational Needs of Gifted Rural Youth of Andhra Pradesh
+                (Established by the Govt. of Andhra Pradesh and recognized as per Section 2(f) of UGC Act, 1956)
+                Accredited by 'NAAC' with 'B+' Grade
+                 
+        
+              </div>
+            </div>
+            <div class="col-md-3 text-start">
+              <div class="h4">
+                Social sites:
+              </div>
+              <ul>
+                <li><a href="#" class="text-white">Instagram</a></li>
+                <li><a href="#" class="text-white">Linkedin</a></li>
+                <li><a href="#" class="text-white">Facebook</a></li>
+                <li><a href="#" class="text-white">Youtube</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 text-start">
+            <div class="h4">
+                Hierarchy:
+              </div>
+              <ul>
+                <li><a href="#" class="text-white">Home</a></li>
+                <li><a href="registration.php" class="text-white">Registration</a></li>
+                <li><a href="login.php" class="text-white">Login</a></li>
+                <li><a href="forgot.php" class="text-white">Forgot</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 text-start">
+            <div class="h4">
+                Visitors:
+              </div>
+              <a href="https://www.freecounterstat.com" title="free hit counter"><img src="https://counter11.optistats.ovh/private/freecounterstat.php?c=1hrc5ytq7fae9jjbaxzdb68ldzh7bz41" border="0" title="free hit counter" alt="free hit counter"></a>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col text-center ">
+                    RGUKT Nuzvid &copy;2024
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        var i=0;
+        var images=[];
+        var time=3600;
+        images[0]="https://rguktn.ac.in/assets_new/gallery/a.jpg";
+        images[1]="https://rguktn.ac.in/assets_new/gallery/20240126-75th_Republic_Day_4.jpg";
+        images[2]="https://rguktn.ac.in/assets_new/gallery/20240126-75th_Republic_Day_8.jpg";
+        images[3]="https://rguktn.ac.in/assets_new/gallery/20240112_PA_folksong.jpg";
+        images[4]="https://rguktn.ac.in/assets_new/gallery/20221226-mou-Strawhat.jpg";
+        images[5]="https://rguktn.ac.in/assets_new/gallery/20221226-mou-Strawhat2.jpg";
+        function changeImg()
+        {
+            document.n.src=images[i];
+            if(i<images.length-1)
+            {
+                i++;
+            }
+            else
+            {
+                i=0;
+            }
+            setTimeout("changeImg()",time);
+        }
+        window.onload=changeImg;
+    </script>
+</body>
+</html>
